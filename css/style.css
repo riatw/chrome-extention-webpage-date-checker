@@ -1,0 +1,189 @@
+@charset "UTF-8";
+
+html,body {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+}
+p {
+	margin: 0;
+}
+dl {
+	margin: 0;
+}
+dt {
+	margin: 0;
+}
+dd {
+	margin: 0;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+li {
+	margin: 0;
+	padding: 0;
+}
+
+#wrap {
+	padding: 20px;
+	min-width: 550px;
+}
+
+h1 {
+	margin: 0 0 15px 0;
+	padding: 0;
+}
+
+.m-list-form {
+	margin-top: 15px;
+}
+.m-list-form li {
+	margin-top: 15px;
+}
+.m-list-form li:first-child {
+	margin-top: 0;
+}
+.m-list-form li label {
+	display: block;
+	margin-bottom: 5px;
+}
+.m-list-form li input,
+.m-list-form li textarea {
+	width: 100%;
+}
+.m-list-form li button:hover {
+	opacity: 1;
+}
+
+.m-list-options {
+	margin-top: 20px;
+}
+.m-list-options li {
+	position: relative;
+	margin-top: 10px;
+	padding: 30px 15px;
+	border: 1px solid #ccc;
+}
+.m-list-options li:first-child {
+	margin-top: 0;
+}
+.m-list-options .option-bar {
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 5px 15px;
+	background: #eee;
+	font-size: 12px;
+}
+.m-list-options .option-title {
+	margin-top: 15px;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+.m-list-options li dl dt {
+	display: inline-block;
+	vertical-align: top;
+	width: 15em;
+}
+.m-list-options li dl dd {
+	display: inline-block;
+	vertical-align: top;
+}
+.m-list-options li dl dd textarea {
+	padding: 3px;
+	width: 30em;
+	height: 5em;
+}
+.m-list-options .option-remove button {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	border-radius: 3px;
+	padding: 5px 15px;
+	border: none;
+	background: #eee;
+	font-size: 12px;
+}
+.m-list-options .option-remove button:hover {
+	background: #ddd;
+	cursor: pointer;
+}
+
+.m-list-btngroup {
+	margin: 20px 0 0 0;
+	padding: 0;
+	list-style: none;
+}
+.m-list-btngroup li {
+	display: inline-block;
+	margin: 0 10px 0 0;
+}
+.m-list-btngroup button {
+	border-radius: 3px;
+	padding: 5px 15px;
+	border: none;
+	background: #eee;
+	font-size: 12px;
+}
+.m-list-btngroup button:hover {
+	background: #ddd;
+	cursor: pointer;
+}
+.m-box-profile {
+	margin-top: -10px;
+}
+.m-box-profile dt {
+	margin-top: 10px;
+	font-weight: bold;
+}
+.m-box-profile dd {
+	display: inline-block;
+	vertical-align: middle;
+}
+.m-box-profile input {
+	width: 9em;
+}
+.m-box-profile button {
+	margin-top: 10px;
+}
+.m-box-profile .profile-docheck {
+	display: inline-block;
+	height: 27px;
+	line-height: 1.7em;
+	border-radius: 3px;
+	padding: 0 10px;
+	border: none;
+	background: orange;
+	color: #fff;
+	text-decoration: none;
+	vertical-align: middle;
+	opacity: 0.9;
+	cursor: pointer;
+}
+.m-box-profile .profile-docheck:hover {
+	opacity: 1;
+}
+.m-box-profile .profile-add {
+	display: inline-block;
+	height: 27px;
+	line-height: 1.7em;
+	border-radius: 3px;
+	padding: 0 10px;
+	background: #eee;
+	color: inherit;
+	text-decoration: none;
+	vertical-align: middle;
+	opacity: 0.9;
+}
+
+.m-box-export {
+	display: none;
+	margin-top: 20px;
+}
+.m-box-export textarea {
+	width: 100%;
+	height: 5em;
+}

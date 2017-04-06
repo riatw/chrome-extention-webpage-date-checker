@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+	<div id="wrap">
+		<div class="m-box-profile">
+			<ul>
+				<dl>
+					<dt>
+						月が指定されていない場合のデフォルト値
+					</dt>
+					<dd>
+						<input type="text" id="defaultmonth" placeholder="月">月とする<br>
+					</dt>
+					<dt>
+						年の区切り月（○月以降を来年扱いとする） ※オプション
+					</dt>
+					<dd>
+						<input type="text" id="sepmonth" placeholder="月">
+					</dd>
+				</dl>
+
+				<button id="docheck" class="profile-docheck">実行</button>
+			</ul>
+		</div>
+
+		<ul class="m-list-form">
+			<li>
+				<textarea id="buff" rows="10"></textarea>
+			</li>
+		</ul>
+	</div>
+
+	<script src="js/jquery-2.1.1.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
